@@ -1,3 +1,8 @@
+:root {
+    --border-color:  1px solid #000;
+}
+
+
 nav{
     background-color: darkblue;
     padding: 10px;
@@ -16,7 +21,7 @@ h1 {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid black;
+    border: var(--border-color);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -49,6 +54,6 @@ p {padding: 0;}
 
 footer {
   margin-top: 15px;
-  border-top: 1px solid #000;
+  border-top:var(--border-color);
   text-align: center;
 }
