@@ -2,6 +2,11 @@
     --border-color-size:  1px solid #000;
 }
 
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+  }
 
 nav{
     background-color: darkblue;
@@ -15,7 +20,8 @@ nav a {
 }
 
 h1 {
-    color: darkblue
+    color: darkblue;
+    margin: 1rem;
 }
 
 main img {
@@ -24,10 +30,13 @@ main img {
     border: var(--border-color-size);
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem;
 }
 
 p {
     padding: 10px;
+    margin: 1rem;
 }
 
 main {
@@ -56,4 +65,17 @@ footer {
   margin-top: 15px;
   border-top:var(--border-color-size);
   text-align: center;
+}
+
+/* Class Selectors */
+.box{
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / .1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
+.indent {
+    padding-left: 2rem;
 }
