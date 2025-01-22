@@ -1,5 +1,5 @@
 :root {
-    --border-color:  1px solid #000;
+    --border-color-size:  1px solid #000;
 }
 
 
@@ -21,7 +21,7 @@ h1 {
 main img {
     width: 150px;
     height: auto;
-    border: var(--border-color);
+    border: var(--border-color-size);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
@@ -54,6 +54,6 @@ p {padding: 0;}
 
 footer {
   margin-top: 15px;
-  border-top:var(--border-color);
+  border-top:var(--border-color-size);
   text-align: center;
 }
