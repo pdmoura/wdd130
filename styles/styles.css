@@ -46,6 +46,7 @@ main {
 aside {
   width: 20rem;;
   text-align: center;
+  position: relative;
 }
 
 
@@ -53,6 +54,11 @@ aside img {
     width: 200px;
     height: auto;
     
+}
+
+aside h2{
+    margin-left: 3rem;
+    position: absolute;
 }
 
 p {padding: 0;}
