@@ -58,30 +58,37 @@ h1{
 .purpose{
   background-color: rgba(7, 83, 127, 0.688);
   width: 90%;
-  height: 160px;
+  height: 190px;
   color: hsl(208, 100%, 97%);
   position: absolute;
-  top: 150px;
+  top: 140px;
   text-align: left;
-  margin-left: 3rem;
+  margin-left: 2rem;
 }
 
 .purpose img{
   width: 200px;
   height: auto;
   float: right;
-  padding: 1rem;
+  margin: 20px;
+
 }
 
 .purpose p{
   color:hsl(0, 0%, 100%);
   font-style: oblique;
   font-size: large;
-  margin-top: 20px;
+  /* margin-top: 10px; */
   padding: 0.5rem;
 }
 
-h2{
+.purpose h2 {
+  margin: 4px
+}
+.history h2 {
+  margin: 1rem
+}
+.adventure h2 {
   margin: 1rem
 }
 
