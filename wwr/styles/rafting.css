@@ -98,7 +98,7 @@ padding: 50px 0;
 
 /* Adventure Section Styles */
 .adventure {
-  background-color: #96D1EC; /* Accent 2 Color */
+  background-color: #96d1ecd0; /* Accent 2 Color */
   color: #000;
   padding: 50px 0;
 }
@@ -112,7 +112,7 @@ padding: 50px 0;
 
 /* Footer Styles */
 footer {
-  background-color: #D14339; /* Primary Color */
+  background-color: #d14339e3; /* Primary Color */
   color: #fff;
   padding: 20px 0;
   text-align: center;
