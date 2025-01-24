@@ -53,6 +53,8 @@ h1{
   position: absolute;
   top: 40px;
   padding: 0.5rem;
+  font-size: xx-large;
+  font-family: ;
 }
 
 .purpose{
@@ -61,7 +63,7 @@ h1{
   height: 190px;
   color: hsl(208, 100%, 97%);
   position: absolute;
-  top: 140px;
+  top: 170px;
   text-align: left;
   margin-left: 2rem;
 }
@@ -77,13 +79,15 @@ h1{
 .purpose p{
   color:hsl(0, 0%, 100%);
   font-style: oblique;
-  font-size: large;
+  font-size: x-large;
   /* margin-top: 10px; */
   padding: 0.5rem;
+  
 }
 
 .purpose h2 {
-  margin: 4px
+  margin: 0;
+  padding-left: 1rem;
 }
 .history h2 {
   margin: 1rem
@@ -94,7 +98,7 @@ h1{
 
 .history p{
   margin: 1rem;
-  font-size: larger;
+  font-size: x-large;
 }
 
 /* History Section Styles */
