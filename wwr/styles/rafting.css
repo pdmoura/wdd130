@@ -110,7 +110,7 @@ h1{
 
 /* History Section Styles */
 .history {
-background-color: #CAD2D5;
+background-color: var(--accent1-color);
 padding: 50px 0;
 }
 
