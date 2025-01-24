@@ -67,10 +67,10 @@ a{
 }
 
 .purpose img{
-  width: 220px;
+  width: 200px;
   height: auto;
   position: absolute;
-  margin-top: 13px;
+  margin-top: 20px;
   margin-left: 625px;
   
 }
@@ -93,4 +93,12 @@ h2{
 
 p{
   margin: 1rem;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #D14339; /* Primary Color */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
 }
