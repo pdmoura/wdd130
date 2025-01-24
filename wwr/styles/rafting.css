@@ -78,8 +78,9 @@ a{
 .purpose p{
   color:hsl(0, 0%, 100%);
   font-style: oblique;
+  font-size: large;
   margin-top: 25px;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 h1{
