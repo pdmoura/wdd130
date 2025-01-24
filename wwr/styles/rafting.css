@@ -85,8 +85,29 @@ h2{
   margin: 1rem
 }
 
-p{
+.history p{
   margin: 1rem;
+  font-size: larger;
+}
+
+/* History Section Styles */
+.history {
+background-color: #CAD2D5; /* Accent 1 Color */
+padding: 50px 0;
+}
+
+/* Adventure Section Styles */
+.adventure {
+  background-color: #96D1EC; /* Accent 2 Color */
+  color: #000;
+  padding: 50px 0;
+}
+
+.adventure img{
+  margin-left: 1rem;
+}
+.adventure h3{
+  margin-left: 1rem
 }
 
 /* Footer Styles */
@@ -95,4 +116,9 @@ footer {
   color: #fff;
   padding: 20px 0;
   text-align: center;
+}
+
+footer img{
+  width: 40px;
+  padding-top: 10px;
 }
