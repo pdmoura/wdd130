@@ -28,7 +28,7 @@ header {
 	flex-wrap: wrap;
 	list-style: none;
 	padding: 0;
-  max-width: 1000px;
+  width: 1000px;
   justify-content: center;
 
 }
@@ -59,8 +59,9 @@ header img {
 
 body {
   font-family: "Roboto", serif;
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
+  width: 1200px;
 }
 
 
@@ -171,11 +172,13 @@ grid-template-columns: 1fr auto 1fr;
 .adventure h2 {
   grid-column: span 5;
   text-align: center;
+  margin-bottom: 1rem;
 }
 
 
 .images-container{
   display: flex;
+  flex-wrap: wrap;
 
 }
 
@@ -186,13 +189,13 @@ grid-template-columns: 1fr auto 1fr;
   height: auto;
   padding: 5px;
   margin: auto;
-  background-color: var(--primary-color);
 }
 
 .image-box figcaption{
   font-size: large;
   font-weight: 500;
   margin-top: 5px;
+
 }
 
 .image-box img{
