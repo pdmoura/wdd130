@@ -1,5 +1,6 @@
 :root {
     --border-color-size:  1px solid #000;
+    --border-color-size-h1: 1px solid #4682b4;
 }
 
 * {
@@ -43,6 +44,9 @@ nav a {
 h1 {
     color: steelblue;
     margin: 1rem;
+    border-bottom: var(--border-color-size-h1);
+    text-align: center;
+
 }
 
 main{
