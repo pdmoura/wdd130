@@ -33,11 +33,6 @@ header {
 
 }
 
-.navigation li {
-	flex: none;
-
-
-}
 .navigation a {
 	display: block;
   padding: 20px;
