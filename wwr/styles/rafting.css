@@ -255,6 +255,19 @@ footer p{
   border-radius: 10px;
 }
 
+.form-child {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form-child > * {
+  height: 50%;
+  width: 100%;
+}
+
+
 .map{
   display: flex;
   flex-direction: column;
