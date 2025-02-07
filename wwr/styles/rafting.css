@@ -46,7 +46,7 @@ header {
 }
 
 header img {
-  width:280px;
+  width:220px;
   margin: 0 0.25rem 0 1rem;
   height: auto;
 }
@@ -78,6 +78,7 @@ a{
   width: 100%;
   height: auto;
   object-fit: cover;
+  display: block;
 }
 
 
@@ -93,6 +94,7 @@ h1{
   font-style: oblique;
   font-weight: 700;
 }
+
 
 .purpose{
   background-color: var(--primary-color);
@@ -241,13 +243,6 @@ footer p{
 }
 
 /* Contact Us styles */
-
-form{
-  font-size: x-large;
-  
-}
-
-
 .contact-background{
   background-color: var(--primary-color);
   width: 90%;
@@ -261,17 +256,106 @@ form{
 }
 
 .map{
-  /* display: flex;
-  flex-direction: column; */
-
-  padding: 2rem;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
+
 }
 
 .map iframe{
-  width: 600px;
-  height: 450px;
-  border:0;
+  width: 500px;
+  height: 800px;
+  border: 1px solid rgb(0, 0, 0);
   border-radius: 10px;
-
+  margin: auto 0;
 }
+
+/* Form styles */
+.form-container {
+  background-color: var(--secondary-color);
+  padding: 1rem ;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: var(--primary-color);
+  border-style: solid;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  grid-template-columns: 4fr auto;
+  align-content: center;
+}
+
+form {
+  width: 650px;
+  margin: 0 auto;
+  padding: 1.5rem;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 0.5rem;
+  display: grid;
+  background-color: var(--accent1-color);
+  font-size: x-large;
+}
+
+fieldset {
+  display: grid;
+  grid-gap: .5rem;
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / 0.2);
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+legend {
+  padding: 0.5rem;
+  color: navy;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+input, select, textarea {
+  padding: 0.5rem;
+  font-size: 1.1rem;
+}
+
+input[type="checkbox"] {
+  width: 22px;
+  height: 22px;
+  vertical-align: bottom;
+}
+
+button {
+  margin: 1rem;
+  background-color: navy;
+  color: #fff;
+  border: none;
+  border-radius: .5rem;
+  padding: .75rem;
+  font-size: 1.2rem;
+}
+
+button:hover {
+  background-color: darkgreen;
+  }
+
+.form-item {
+    display: grid;
+    align-items: center;
+  }
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+  }
+
+.required {
+    color: red; /* Or any color you prefer */
+}
+
+textarea{
+  resize: v;
+}
+

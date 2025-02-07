@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Discover the story behind White Water Rafting, a premier water rafting company dedicated to thrilling experiences, client satisfaction, and safe adventures on iconic rivers since 2005.">
+    <meta name="description" content="Reach out the best rafting company in the USA dedicated to thrilling experiences, client satisfaction, and safe adventures on iconic rivers since 2005.">
     <meta name="author" content="Pedro Alves">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,12 +28,48 @@
             <img src="images/hero-image.jpg" alt="people-on-a-boat">
             <h1>CONTACT US</h1>
             <article class="contact-background">
-                <h2></h2>
-                    <button type="submit">Submit</button>
-            
-                    <div id="formMessage" class="message" style="display:none;"></div>  </form>
+
             </article>
         </div>
+        <section class="form-container">
+            <form>
+                <fieldset>
+                  <legend>Contact Information</legend>
+                  <div class="form-item column2">
+                      <label for="fullname">Full Name:</label>
+                      <input type="text" id="fullname" name="fullanme">
+                    </div>
+                    <div class="form-item column2">
+                      <label for="useremail">Email: <span class="required">*</span></label>
+                      <input type="email" id="useremail" name="useremail" required>
+                    </div>
+                </fieldset>
+                <fieldset>
+                  <legend>Questions</legend>
+                  <div class="column1">
+                      <label for="browser">Subject:</label>
+                      <select id="browser" name="browser">
+                        <option value="chrome">Chrome</option>
+                        <option value="firefox">Firefox</option>
+                        <option value="safari">Safari</option>
+                        <option value="edge">Edge</option>
+                        <option value="brave">Brave</option>
+                        <option value="other">Other</option>
+                      </select>
+                  </div>
+                  <div class="column1">
+                      <label for="pet">Do you have a household pet?</label>
+                      <input type="checkbox" id="pet" name="pet">
+                  </div><br>
+                  <label for="feedback">List the places you have lived:</label>
+                  <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
+                </fieldset>
+                <button type="submit">Submit Poll</button>
+            </form>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7842.947734391053!2d-114.13641935505355!3d34.25993992468553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1738714777708!5m2!1sen!2sbr" allowfullscreen="" loading="lazy"; referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
           <section class="adventure">
             <h2>ADVENTURE AWAITS YOU!</h2>
             <div class="images-container">
@@ -57,9 +93,6 @@
                     <img src="images/img5.jpg" alt="boat-on-a-fast-river">
                     <figcaption>And always come back...</figcaption>
                 </figure>
-            </div>
-            <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7842.947734391053!2d-114.13641935505355!3d34.25993992468553!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbr!4v1738714777708!5m2!1sen!2sbr" allowfullscreen="" loading="lazy"; referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </section>
     </main>
