@@ -64,14 +64,18 @@
                 <fieldset>
                   <legend>We’d love to hear from you.</legend>
                   <div class="column1">
-                      <label for="subject">Subject:</label>
-                      <select id="subject" name="subject">
-                        <option value="" selected disabled>Choose One ...</option>
-                        <option value="General Inquiry">General Inquiry</option>
-                        <option value="Reservation Question">Reservation Question</option>
-                        <option value="Website Suggestion">Website Suggestion</option>
-                        <option value="other">Other</option>
-                      </select>
+                    <label>
+                        <input type="radio" name="subject" value="General Inquiry" required> General Inquiry
+                    </label>
+                    <label>
+                        <input type="radio" name="subject" value="Reservation Question"> Reservation Question
+                    </label><br>
+                    <label>
+                        <input type="radio" name="subject" value="Website Suggestion"> Website Suggestion
+                    </label>
+                    <label>
+                        <input type="radio" name="subject" value="other"> Other
+                    </label>
                   </div>
                     <label for="feedback">Comments/questions</label>
                     <textarea id="feedback" name="feedback" rows="4" placeholder="Send us a message and we’ll get back to you as soon as we can. You may also reach us via whatsapp, just click on the icon and say hi! ^^"></textarea>
@@ -80,7 +84,7 @@
                       <input type="checkbox" id="monthly-letter" name="monthly-letter">
                   </div>
                 </fieldset>
-                <button type="submit">SUBMIT</button>
+                <button type="submit">Submit Message</button>
             </form>
             <div class="form-child">
                 <div class="company-details">

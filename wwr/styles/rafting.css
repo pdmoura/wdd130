@@ -377,6 +377,12 @@ input[type="checkbox"] {
   vertical-align: bottom;
 }
 
+input[type="radio"]{
+  width: 22px;
+  height: 22px;
+  padding: 1rem;
+}
+
 button {
   margin: 1rem;
   background-color: var(--primary-color);
