@@ -215,7 +215,7 @@ h1{
 /* Footer Styles */
 footer {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 1fr 1fr 1fr;
   justify-content: space-between;
   align-items: center;
   background-color: var(--primary-color);
@@ -228,13 +228,26 @@ footer p{
   text-align: center;
   font-size: large;
   font-weight: 500;
-  padding-left: 6rem ;
+
   
 }
 
+#wireframe-page{
+  color: #000;
+  font-size: large;
+  font-weight: 500;
+  text-align: left;
+}
+
+#wireframe-page:hover {
+	color: var(--accent1-color);
+	font-weight: 700;
+}
+
+
 .sociallinks{
   gap: 15px;
-  padding-right: 1rem;
+  text-align: end;
 }
 
 .sociallinks a img{
@@ -302,7 +315,8 @@ footer p{
   padding: 2rem;
   border: 1px solid rgb(0, 0, 0);
   border-radius: 10px 10px 0 0;
-  background-color: var(--primary-color)
+  background-color: var(--primary-color);
+  color: #fff;
 }
 
 #company-email{
