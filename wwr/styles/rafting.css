@@ -3,7 +3,7 @@
   --secondary-color: #96d1ecd0; /* secondary color */
   --accent1-color:#f0f8ff; /* accent1 color*/
   --accent2-color: #d14339e3; /* accent2 color */
-
+  --newsletter-form-color: #1b6a97;
 }
 
 * {
@@ -428,4 +428,69 @@ button:hover {
 
 textarea{
   resize: none;
+}
+
+
+/* Home page styles */
+
+#newsletter-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  position: fixed;
+  bottom: 20px;
+  right: 9px;
+  background-color: var(--accent1-color);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 330px;
+  justify-content: center;
+  height: auto;
+}
+
+#newsletter-form h2{
+  color:#000;
+}
+
+#newsletter-form form{
+  width: 300px;
+  background-color: var(--secondary-color);
+  height: auto;
+}
+
+#newsletter-form label {
+  margin-bottom: 5px;
+}
+
+#newsletter-form input[type="text"],
+#newsletter-form input[type="email"] {
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 250px;
+}
+
+#newsletter-form button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 215px;
+  height: auto;
+}
+
+#newsletter-form button:hover {
+  background-color: #0056b3;
+}
+
+#newsletter-form .close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  font-size: 30px;
 }
