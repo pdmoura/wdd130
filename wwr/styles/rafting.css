@@ -380,7 +380,7 @@ legend {
 
 input, select, textarea {
   padding: 0.5rem;
-  font-size: 1.1rem;
+  font-size: 1.2rem;
 }
 
 input[type="checkbox"] {
@@ -403,6 +403,7 @@ button {
   border-radius: .5rem;
   padding: .75rem;
   font-size: 1.5rem;
+  cursor: pointer;
 }
 
 button:hover {
@@ -512,7 +513,16 @@ textarea{
   color: white;
   text-decoration: none;
   border-radius: 5px;
+  cursor: pointer;
+  width: 20rem;
+
 }
+
+.cta-button:hover {
+  background-color: navy;
+  }
+
+
 
 #about-us {
   padding: 40px;
@@ -538,3 +548,6 @@ textarea{
   margin-bottom: 10px;
 }
 
+.grid-item h3, p{
+  font-size: large;
+}
