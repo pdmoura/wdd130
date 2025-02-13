@@ -482,7 +482,7 @@ textarea{
   border-radius: 10px;
   align-items: center;
   justify-content: center;
-  margin-bottom: 20px;
+
 }
 
 #newsletter input, #newsletter button {
@@ -556,3 +556,118 @@ textarea{
 
 /* trips styles */
 
+.hero-review {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 20px; /* Adjust top padding as needed */
+  left: 20px; /* Adjust left padding as needed */
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: flex;
+  height: auto;
+  z-index: 1; /* Ensure it's on top */
+  width: 370px;
+}
+
+.hero-review .stars {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+#number-reviews{
+  font-size: small;
+}
+
+.hero-review .stars img {
+  width: 40px;
+  height: auto;
+  margin: 0 2px;
+}
+
+.hero-review h3{
+  padding: 10px;
+}
+
+.hero-review p {
+  margin-bottom: 10px;
+}
+
+/* Trip Packages Section */
+#trip-packages {
+  padding: 40px;
+  text-align: center;
+  border: var(--primary-color);
+  border-style: solid;
+  margin-top: 0.5rem;
+}
+
+#trip-packages h2 {
+  display: flex;
+  font-size: 2em;
+  margin-bottom: 20px;
+  background-color: var(--primary-color);
+  width: 100%;
+  height: 100px;
+  color: var(--accent1-color);
+  border-radius: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.trip-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 20px;
+}
+
+.trip-card {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  background-color: var(--accent1-color);
+}
+
+.trip-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+  margin-bottom: 10px;
+}
+
+.trip-card h3 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.trip-card p {
+  margin-bottom: 10px;
+}
+
+.trip-card ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 15px;
+}
+
+.trip-card li {
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.trip-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.trip-button:hover {
+  background-color: navy;
+  }

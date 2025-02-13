@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Whitewater rafting trips across the US. Find the perfect river adventure for you, from gentle floats to heart-pounding rapids. Explore our trips and book today!.">
+    <meta name="description" content="Discover unforgettable whitewater rafting excursions. Explore stunning rivers, conquer exciting rapids, and create lasting memories. Browse our trips and book your adventure!">
     <meta name="author" content="Pedro Alves">
     <meta property="og:image" content="https://byui-cse.github.io/wdd130-ww-course/resources/images/logos/z-wwr-oars.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,48 +16,103 @@
     <header>
         <img src="images/rafting_site_logo.png" alt="logo">
         <nav class="navigation">
-            <a href="#">Home</a>
+            <a href="index.html">Home</a>
             <a href="about.html">About Us</a>
             <a href="trips.html">Trips</a>
             <a href="contact.html">Contact Us</a> 
         </nav>
     </header>
     <main>
-        <section class="hero">
-            <img src="images/hero-image-home-page.jpg" alt="Whitewater Rafting Adventure">
+        <section class="hero" id="trip-hero-container">
+            <img src="images/family-rafting.jpg" alt="Whitewater Rafting Adventure">
+            <div class="hero-review">
+                <div class="stars">
+                    <img src="images/star_rate.png" alt="Star">
+                    <img src="images/star_rate.png" alt="Star">
+                    <img src="images/star_rate.png" alt="Star">
+                    <img src="images/star_rate.png" alt="Star">
+                    <img src="images/star_rate.png" alt="Star">
+                    <p id="number-reviews">2450 reviews</p>
+                </div>
+                <h3>Awesome day rafting with family!</h3>
+                <p>"Absolutely incredible!  The Colorado River rafting trip exceeded all expectations.  Stunning scenery, thrilling rapids, and top-notch guides. 5 stars!"</p>
+                <a href="#" class="trip-button">Read & Write reviews</a>
+            </div>
             <div class="hero-content">
-                <h1>Conquer the Rapids. Embrace the Adventure.</h1>
+                <h1>Our Whitewater Rafting Trips</h1>
             </div>
         </section>
-    
-        <section id="newsletter">
-            <h2>Stay Updated! Sign Up for Our Newsletter</h2>
-        </section>
-    
-        <section id="call-to-action" class="hero">
-            <img src="images/Emotions-02-_DSC0196-1170x658.webp" alt="">
-            <div class="hero-content">
-                <h2>Ready for an unforgettable experience?</h2>
-                <a href="trips.html" class="cta-button">Explore Our Trips</a>
-            </div>
-        </section>
-    
-        <section id="about-us">
-            <div class="grid-container">
-                <div class="grid-item">
-                    <img src="images/Colorado-Springs-Whitewater-Rafting-Arkansas-River-1024x685.webp" alt="Scenic River">
-                    <h3>Explore the Wild</h3>
-                    <p>Discover the beauty and power of nature's untamed rivers.  Our trips take you through stunning landscapes, offering a unique opportunity to connect with the wilderness and experience the thrill of the rapids.</p>
+
+        <section id="trip-packages">
+            <h2>Explore Our Trip Packages</h2>
+            <div class="trip-grid">
+                <div class="trip-card">
+                    <img src="images/trip1.webp" alt="Trip 1">
+                    <h3>The River Run</h3>
+                    <p>Experience the thrill of the rapids on this action-packed day trip. Perfect for adrenaline junkies!</p>
+                    <ul>
+                        <li>Duration: 1 Day</li>
+                        <li>Difficulty: Moderate</li>
+                        <li>Price: $150</li>
+                    </ul>
+                    <a href="#" class="trip-button">Book Now</a>
                 </div>
-                <div class="grid-item">
-                    <img src="images/safety-image.webp" alt="Rafting Fun">
-                    <h3>Our Passion for Whitewater</h3>
-                    <p>We're a team of experienced rafters dedicated to sharing our love of the river.  Our mission is to provide safe, exhilarating, and unforgettable whitewater rafting experiences for adventurers of all levels.</p>
+
+                <div class="trip-card">
+                    <img src="images/chill-family-trip.webp" alt="Trip 2">
+                    <h3>The Scenic Float</h3>
+                    <p>Enjoy a relaxing float down the river, surrounded by stunning natural beauty. Ideal for families and nature lovers.</p>
+                    <ul>
+                        <li>Duration: Half Day</li>
+                        <li>Difficulty: Easy</li>
+                        <li>Price: $75</li>
+                    </ul>
+                    <a href="#" class="trip-button">Book Now</a>
                 </div>
-              <div class="grid-item">
-                    <img src="images/Rafting-Costa-Rica-Balsa-river-800x800.jpg" alt="Safety Gear" id="gear-image">
-                    <h3>Safety First</h3>
-                    <p>Your safety is our top priority. We provide all necessary equipment and our experienced guides are certified in first aid and river rescue. We ensure every trip is both safe and exciting.</p>
+
+                <div class="trip-card">
+                    <img src="images/Rappelling-Adventure.webp" alt="Trip 3">
+                    <h3>Rafting and Rappeling </h3>
+                    <p>A full adrenaline White Water and Canyoning combo sure to kick start your vacation.</p>
+                    <ul>
+                        <li>Duration: 1 Day</li>
+                        <li>Difficulty: Challenging</li>
+                        <li>Price: $166</li>
+                    </ul>
+                    <a href="#" class="trip-button">Book Now</a>
+                </div>
+                <div class="trip-card">
+                    <img src="images/camping-middle-fork-river-tours.webp" alt="Trip 4">
+                    <h3>Sunset Canyon Expedition</h3>
+                    <p>Experience the magic of the canyon at twilight. This expedition combines thrilling rapids with serene evenings under the stars. Gourmet campfire meals included.</p>
+                    <ul>
+                        <li>Duration: 2 Days</li>
+                        <li>Difficulty: Easy</li>
+                        <li>Price: $295</li>
+                    </ul>
+                    <a href="#" class="trip-button">Book Now</a>
+                </div>
+                <div class="trip-card">
+                    <img src="images/night-rafting.jpg" alt="Trip 5">
+                    <h3>Group Night Rafting</h3>
+                    <p>Embark on a thrilling nocturnal adventure! Our night rafting trips heighten your senses as you navigate the river's currents under the cover of darkness. An unique experience awaits.</p>
+                    <ul>
+                        <li>Duration: 3 Days</li>
+                        <li>Difficulty: Moderate</li>
+                        <li>Price: $400</li>
+                    </ul>
+                    <a href="#" class="trip-button">Book Now</a>
+                </div>
+                <div class="trip-card">
+                    <img src="images/river-camping.webp" alt="Trip 6">
+                    <h3>The Multi-Day Camping</h3>
+                    <p>Discover breathtaking vistas and hidden gems on this 3-day scenic rafting expedition. Camping under the Canions and exploring remote wilderness areas.</p>
+                    <ul>
+                        <li>Duration: 3 Days</li>
+                        <li>Difficulty: Challenging</li>
+                        <li>Price: $310</li>
+                    </ul>
+                    <a href="#" class="trip-button">Book Now</a>
                 </div>
             </div>
         </section>
