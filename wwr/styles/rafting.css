@@ -136,7 +136,7 @@ h1{
   padding: 50px ;
   display: grid;
   grid-template-columns: 1fr auto 1fr;
-  border: var(--accent2-color);
+  border: var(--primary-color);
   border-style: solid;
   margin-bottom: 0.5rem;
   margin-top: 0.5rem;
