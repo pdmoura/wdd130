@@ -91,6 +91,7 @@ h1{
   font-size: xxx-large;
   font-style: oblique;
   font-weight: 700;
+  border-radius: 10px;
 }
 
 
@@ -546,8 +547,12 @@ textarea{
   width: 100%;
   height: auto;
   margin-bottom: 10px;
+  border-radius: 10px;
 }
 
 .grid-item h3, p{
   font-size: large;
 }
+
+/* trips styles */
+
