@@ -18,7 +18,7 @@ header {
   grid-template-columns: 252px auto;  /* Logo takes img space, nav takes remaining */
   background-color: var(--primary-color); /* Primary Color */
   color: var(--accent1-color);
-  width: 1200px;
+  width: 1500px;
 }
 
 header img {
@@ -53,7 +53,7 @@ body {
   font-family: "Roboto", serif;
   margin: 0 auto;
   padding: 0;
-  width: 1200px;
+  width: 1500px;
 }
 
 
@@ -574,7 +574,6 @@ textarea{
   color: white;
   padding: 10px 20px;
   border-radius: 5px;
-  display: flex;
   height: auto;
   z-index: 1; /* Ensure it's on top */
   width: 370px;
@@ -604,6 +603,40 @@ textarea{
   margin-bottom: 10px;
 }
 
+#invite-to-contact{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  bottom: 25px;
+  right: 20px; /* Adjust left padding as needed */
+  background-color: rgba(0, 0, 0, 0.674); /* Semi-transparent black */
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  height: 320px;
+  width: 370px;
+  justify-content: center;
+}
+
+#invite-to-contact h3{
+  display: flex;
+  font-size: xx-large;
+  margin-bottom: 30px;
+  background-color: var(--newsletter-form-color);
+  width: 100%;
+  height: auto;
+  color: var(--accent1-color);
+  border-radius: 10px;
+  justify-content: center;
+  font-weight: 700;
+}
+
+#invite-to-contact p{
+  font-size: x-large;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
 /* Trip Packages Section */
 #trip-packages {
   padding: 40px;
@@ -628,7 +661,7 @@ textarea{
 
 .trip-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
 }
 
@@ -674,8 +707,68 @@ textarea{
   color: white;
   text-decoration: none;
   border-radius: 5px;
+  font-weight: 700;
 }
 
 .trip-button:hover {
   background-color: navy;
   }
+
+ /* Trip table styles */
+
+
+ .trip-comparison {
+  margin-top: 50px;
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.trip-comparison img {
+  max-width: 180px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.trip-comparison .description-column {
+  width: 40%;
+}
+
+.trip-comparison .description-column ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+.trip-comparison .description-column li {
+  margin-bottom: 8px;
+}
+
+.trip-comparison tbody:hover {
+  background-color: var(--newsletter-form-color); 
+}
+
+
+.trip-comparison th {
+  border: 1px solid var(--newsletter-form-color);
+  padding: 15px;
+  text-align: center; /* Center alignment for th */
+  vertical-align: top;
+  background-color: white;
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: x-large;
+
+}
+
+.trip-comparison td {
+  border: 1px solid #ddd;
+  padding: 15px;
+  text-align: left; /* Left alignment for td */
+  vertical-align: top;
+  background-color: var(--accent1-color);
+}
