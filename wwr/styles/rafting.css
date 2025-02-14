@@ -314,7 +314,7 @@ footer p{
 #phone-number-p{
   display: flex;
   text-align: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .company-details h2{
@@ -333,7 +333,8 @@ footer p{
 .map{
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
+  align-items: center;
 
 }
 
