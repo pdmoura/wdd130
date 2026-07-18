@@ -49,15 +49,8 @@ Cole a estrutura abaixo substituindo os dados iniciais pelos seus dados padrão 
 # 🤖 SCRIPT DE AUTOMAÇÃO (RODAR APENAS UMA VEZ NA MÁQUINA)
 # ==========================================================
 [alias]
-    novo-cliente = "!f() { \
-        username=$1; \
-        email=$2; \
-        key_name=$3; \
-        config_path=\"$HOME/.gitconfig-$username\"; \
-        echo \"[user]\n    name = $username\n    email = $email\n[core]\n    sshCommand = \\\"ssh -i $HOME/.ssh/$key_name -F /dev/null\\\"\" > \"$config_path\"; \
-        git config --global --add \"includeIf.hasconfig:remote.*.url:git@github.com:$username/**.path\" \"$config_path\"; \
-        echo \"Automação criada com sucesso para o cliente $username!\"; \
-    }; f"
+    novo-cliente = "!f() { config_path=\"$HOME/.gitconfig-$1\"; echo '[user]' > \"$config_path\"; echo \"    name = $1\" >> \"$config_path\"; echo \"    email = $2\" >> \"$config_path\"; echo '[core]' >> \"$config_path\"; echo \"    sshCommand = \\\"ssh -i $HOME/.ssh/$3 -F /dev/null\\\"\" >> \"$config_path\"; git config --global --add \"includeIf.hasconfig:remote.*.url:git@github.com:$1/**.path\" \"$config_path\"; echo \"Automação criada para $1!\"; }; f"
+
 ```
 
 ## 🚀 Fluxo de trabalho: adicionando um novo cliente
